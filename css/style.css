@@ -1,0 +1,135 @@
+﻿*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1310px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(../images/header-bg.png);
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100vh;
+}
+
+.header__top {
+    position: relative;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.header__inner a {
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    min-width: 493px;
+}
+.menu__center-item + .menu__center-item{
+    margin-left: 50px;
+}
+.menu__center-item {
+    color: #fff;
+}
+.menu__center {
+    /* margin: 10px 0 0 233px; */
+    margin-top: 10px;
+}
+.menu__main {
+    position: relative;
+    max-width: 535px;
+}
+.menu__main-inner {
+    display: flex;
+    justify-content: space-between;
+    min-width: 535px;
+}
+
+.menu__language{
+    position: absolute;
+    display: flex;
+    top: -6%;
+    left: -21%;
+}
+
+.menu__lang {
+    color: #fff;
+    margin-right: 15px;
+}
+.menu__lang-feature {
+    margin-top: 18px;
+    color: #4C5EFF;
+}
+
+.menu__logo{
+    display: flex;
+    margin: 5px 40px 57px;
+}
+.menu__item {
+    list-style-type: none;
+}
+.menu__item + .menu__item {
+    padding-left: 10px;
+}
+
+.menu__register{
+    min-width: 200px;
+    max-height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.menu__register-img {
+    position: absolute;
+    left: 0;
+}
+
+.menu__enter {
+    border: none;
+    outline: none;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(135deg, #6DF7A3 0%, #2137FF 100%);
+    position: absolute;
+    right: 13%;
+}
+
+.menu__enter span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+ /* -------HEADER-CONTENT------- */
+.header__content-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
